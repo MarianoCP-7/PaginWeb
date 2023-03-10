@@ -1,0 +1,19 @@
+.slider img{
+     display: none;
+     width: 50px;
+     height: 50px;
+}
+
+.slider img:first-child{
+    display: block;
+}
+
+.sliderC{
+    height: 70vh;
+    width: 70vh;
+}
+
+.slider{
+    height: 5vh;
+    width: 5vh;
+}
