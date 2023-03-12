@@ -1,8 +1,12 @@
 body{
-    background-color: #dce5b3;
+    background-color: #f2e2c4;
     background-repeat: no-repeat;
     background-size: 100%;
     /*Esto es para poner el fondo a la pagina web*/
+}
+
+.encabezado{
+  font-size: xx-large;
 }
 
 .slider img{
@@ -10,7 +14,7 @@ body{
     width: 800px;
     height: 800px;
 }
-/*Esto es para dar tamaño a las imagenes dentro del sldier*/
+/*Esto es para dar tamaño a las imagenes dentro del slider*/
 
 .slider img:first-child{
    display: block;
@@ -120,7 +124,7 @@ body{
 .mapa{
     padding: 2%;
     position: absolute;
-    top: 130%;
+    top: 135%;
     left: 45%;
     transform: translate(-50%, -50%);
     width: 400px;
