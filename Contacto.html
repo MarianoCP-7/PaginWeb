@@ -11,6 +11,19 @@
   </head>
 
   <body>
+
+    <div class="FH2">
+        <p id="fechaHora"></p>
+      
+      <div class="FyH">
+        <script>
+          var fechaHoraActual = new Date().toLocaleString();
+          document.getElementById("fechaHora").innerHTML = fechaHoraActual;
+        </script>
+      </div>
+      </div>
+    
+
     <div class="formulario">
       <h1>Contacto</h1>
       <form action="login.php" method="post">
@@ -21,9 +34,7 @@
         <center><div class="recordar">¿Olvido su Contraseña?</div></center>
         <center><input type="submit" value="Reiniciar Contraseña"></center>
         <br>
-        <div class="registrarse">
-          Quiero hacer el <a href="https://es.wikipedia.org/wiki/Registro_(base_de_datos)">registro</a>
-        </div>
       </form>
+      </div>
   </body>
 </html>

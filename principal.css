@@ -42,6 +42,28 @@ body{
 }
 /*Aqui ponemos en un lugar especifico dentro de la caja del formulario*/
 
+.FH{
+  padding: 2%;
+    position: absolute;
+    top: 20%;
+    left: 11%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background: #419587;
+    border-radius: 9px;
+}
+
+.FH2{
+  padding: 2%;
+    position: absolute;
+    top: 10%;
+    left: 11%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background: #419587;
+    border-radius: 9px;
+}
+
 .mariano{
   font-family: 'Franklin Gothic Medium';
   font-size: 20px;
