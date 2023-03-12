@@ -49,7 +49,7 @@ body{
 .FH{
   padding: 2%;
     position: absolute;
-    top: 20%;
+    top: 35%;
     left: 11%;
     transform: translate(-50%, -50%);
     width: 300px;
@@ -124,7 +124,7 @@ body{
 .mapa{
     padding: 2%;
     position: absolute;
-    top: 135%;
+    top: 141%;
     left: 45%;
     transform: translate(-50%, -50%);
     width: 400px;
