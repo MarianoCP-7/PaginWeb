@@ -9,19 +9,12 @@ body{
   font-size: xx-large;
 }
 
-header, .contenedor{
-    /* Reducir el ancho, establecer un tamaño máximo del ancho */
-    width:90%;
-    max-width: 1000px;
-    margin: 20px auto;
-}
-
 header nav{
     /*editamos el nav nada mas dentro del nav*/
     background: #0a4934;
     overflow:hidden;
 }
-1
+
 header nav ul{
     /*Edtamos los atributos dentro del header/listas*/
     list-style: none;
@@ -38,7 +31,7 @@ header nav ul li a{
     font-size: larger;
     display: block;
     color: #ffffff;
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 header nav ul li a:hover{
@@ -104,6 +97,7 @@ header nav ul li a:hover{
     width: 300px;
     background: #d13318;
     border-radius: 9px;
+}
 /*Damos formato a la fecha y hora 2 que se encuentra en contacto*/
 
 .mariano{
@@ -111,7 +105,7 @@ header nav ul li a:hover{
   font-size: 20px;
     padding: 2%;
     position: absolute;
-    top: 18%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
@@ -125,7 +119,7 @@ header nav ul li a:hover{
   font-size: 20px;
   padding: 2%;
   position: absolute;
-  top: 55%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
@@ -139,7 +133,7 @@ header nav ul li a:hover{
   font-size: 20px;
   padding: 2%;
   position: absolute;
-  top: 98%;
+  top: 128%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
@@ -214,14 +208,6 @@ header nav ul li a:hover{
   .menu a:hover {
     background-color: #ccc;
   }
-
-.menu {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding: 10px;
-}
-
 </style>
 
 header, .contenedor, footer{
@@ -252,4 +238,99 @@ header nav ul li a{
 
 header nav ul li a:hover{
   background: #b63c27;
+}
+
+.Formulario .contenedor-inputs{
+  padding: 20px;
+  background: #FAFAFA;
+  border-radius: 6px 6px 0 0;
+}
+
+.Formulario input[type="text"],
+.Formulario input[type="email"]{
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px 10px;
+  border: none;
+  border-bottom: 2px solid#ccc;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.Formulario input[type="text"]:focus,
+.Formulario input[type="email"]:focus{
+  border-bottom: 2px solid #246eb9;
+}
+
+.Formulario input[type="radio"]{
+  display: none;
+}
+
+.Formulario .genero{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Formulario .genero .label-radio{
+  width: 50%;
+  color: #000;
+}
+
+.Formulario .genero .hombre{
+  border-radius: 3px 0 0 3px;
+  color: #000;
+}
+
+.Formulario .genero .mujer{
+  border-radius: 0 3px 3px 0;
+  color: #000;
+}
+
+.Formulario .label-radio{
+  background: #0a4934(1, 223, 1, .4);
+  color: #fff;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.Formulario input[type="radio"]:checked + .label-radio{
+  background: #0a4934a1;
+  color: #fff;
+}
+
+.Formulario .terminos{
+  /margin-bottom: 20px;/
+  text-align: center;
+  color: #424242;
+}
+
+.Formulario .terminos label{
+  margin-left: 10px;
+}
+
+.Formulario .error{
+  display: none;
+  margin-top: 20PX;
+  border-radius: 3px;
+  background: #d1b847;
+  color: #2e2e2e;
+  padding: 15px 10px;
+  padding-left: 40px;
+}
+
+.Formulario .btn{
+  width: 100%;
+  text-align: center;
+  background: #b96c24;
+  color:#fff;
+  border: none;
+  display: block;
+  padding: 15px 10px;
+  cursor:pointer;
+  border-radius: 0 0 6px 6px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
