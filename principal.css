@@ -9,6 +9,13 @@ body{
   font-size: xx-large;
 }
 
+header, .contenedor{
+    /* Reducir el ancho, establecer un tamaño máximo del ancho */
+    width:90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
 header nav{
     /*editamos el nav nada mas dentro del nav*/
     background: #0a4934;
@@ -207,6 +214,14 @@ header nav ul li a:hover{
   .menu a:hover {
     background-color: #ccc;
   }
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
 </style>
 
 header, .contenedor, footer{
