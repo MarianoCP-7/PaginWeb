@@ -9,42 +9,6 @@ body{
   font-size: xx-large;
 }
 
-header, .contenedor{
-    /* Reducir el ancho, establecer un tamaño máximo del ancho */
-    width:90%;
-    max-width: 1000px;
-    margin: 20px auto;
-}
-
-header nav{
-    /*editamos el nav nada mas dentro del nav*/
-    background: #0a4934;
-    overflow:hidden;
-}
-
-header nav ul{
-    /*Edtamos los atributos dentro del header/listas*/
-    list-style: none;
-}
-
-header nav ul li{
-    /*es la barra de navegación y estamos alineando las listas a la izquierda */
-    float: left;
-}
-
-header nav ul li a{
-    /*definimos un espacio rectangular su ancho y alto, su color, y el espacio entre el contenido y el texto*/
-    padding: 10px 40px;
-    display: block;
-    color: #fff;
-    text-decoration: none;
-}
-
-header nav ul li a:hover{
-    /*definimos el color donde se encuentran las listas*/
-    background: #b63c27;
-}
-
 
 .slider img{
     display: block;
@@ -181,7 +145,43 @@ header nav ul li a:hover{
 /*Aqui le asignamos un lugar al footer que es el boton de subir*/
 
 <style>
-  .menu {
+header, .menu{
+    /* Reducir el ancho, establecer un tamaño máximo del ancho */
+    width:90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+header nav{
+    /*editamos el nav nada mas dentro del nav*/
+    background: #0a4934;
+    overflow:hidden;
+}
+
+header nav ul{
+    /*Edtamos los atributos dentro del header/listas*/
+    list-style: none;
+}
+
+header nav ul li{
+    /*es la barra de navegación y estamos alineando las listas a la izquierda */
+    float: left;
+}
+
+header nav ul li a{
+    /*definimos un espacio rectangular su ancho y alto, su color, y el espacio entre el contenido y el texto*/
+    padding: 10px 40px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    /*definimos el color donde se encuentran las listas*/
+    background: #b63c27;
+}  
+
+/*.menu {
     background-color: #fff;
     border-bottom: 1px solid #ccc;
   }
@@ -211,35 +211,6 @@ header nav ul li a:hover{
   
   .menu a:hover {
     background-color: #ccc;
-  }
+  }*/
 </style>
 
-header, .contenedor, footer{
-  width:90%;
-  max-width: 1000px;
-  margin: 20px auto;
-}
-
-header nav{
-  background: #0a4934;
-  overflow:hidden;
-}
-
-header nav ul{
-  list-style: none;
-}
-
-header nav ul li{
-  float: left;
-}
-
-header nav ul li a{
-  padding: 10px 40px;
-  display: block;
-  color: #fff;
-  text-decoration: none;
-}
-
-header nav ul li a:hover{
-  background: #b63c27;
-}
