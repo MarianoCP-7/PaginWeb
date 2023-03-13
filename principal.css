@@ -9,6 +9,11 @@ body{
   font-size: xx-large;
 }
 
+.caja{
+  background-color: #f2e2c4;
+  height: 330px;
+}
+
 header nav{
     /*editamos el nav nada mas dentro del nav*/
     background: #0a4934;
@@ -164,7 +169,7 @@ header nav ul li a:hover{
 }
 /*Aqui le damos un lugar en el centro de la pantalla al mapa */
 
-.footer{
+/**.footer{
     padding: 2%;
     position: absolute;
     top: 190%;
@@ -207,6 +212,15 @@ header nav ul li a:hover{
   
   .menu a:hover {
     background-color: #ccc;
+  }
+
+  footer{
+    /*seleccionamos el color del footer, color de las letras el tamaño de la caja y centramos el texto*/
+    background: #d1d361;
+    color: #fff;
+    clear: both;
+    padding: 10px 20px;
+    text-align: center;
   }
 </style>
 
@@ -334,3 +348,4 @@ header nav ul li a:hover{
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
 }
+
