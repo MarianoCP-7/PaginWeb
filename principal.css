@@ -14,7 +14,7 @@ header nav{
     background: #0a4934;
     overflow:hidden;
 }
-
+1
 header nav ul{
     /*Edtamos los atributos dentro del header/listas*/
     list-style: none;
@@ -28,9 +28,10 @@ header nav ul li{
 header nav ul li a{
     /*definimos un espacio rectangular su ancho y alto, su color, y el espacio entre el contenido y el texto*/
     padding: 10px 40px;
+    font-size: larger;
     display: block;
-    color: #fff;
-    text-decoration: none;
+    color: #ffffff;
+    text-decoration: none;  
 }
 
 header nav ul li a:hover{
@@ -79,11 +80,11 @@ header nav ul li a:hover{
 .FH{
   padding: 2%;
     position: absolute;
-    top: 35%;
+    top: 45%;
     left: 11%;
     transform: translate(-50%, -50%);
     width: 300px;
-    background: #419587;
+    background: #d13318;
     border-radius: 9px;
 }
 
@@ -94,9 +95,9 @@ header nav ul li a:hover{
     left: 11%;
     transform: translate(-50%, -50%);
     width: 300px;
-    background: #419587;
+    background: #d13318;
     border-radius: 9px;
-}
+/*Damos formato a la fecha y hora 2 que se encuentra en contacto*/
 
 .mariano{
   font-family: 'Franklin Gothic Medium';
@@ -189,6 +190,7 @@ header nav ul li a:hover{
   .menu li {
     margin-right: 20px;
   }
+  
   
   .menu li:last-child {
     margin-right: 0;
