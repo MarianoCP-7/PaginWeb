@@ -23,18 +23,35 @@
       </div>
       </div>
     
+<h1>Usuario</h1>
+                <div class="contenedor">
+                    <form action="" class="Formulario" id="Formulario" name="Formulario">
+                        <div class="contenedor-inputs">
+                            <p style="color:black;"<label for="usuario"> Datos de usuario </label></p>
+                            <input type="text" name="nombre" placeholder="Escribe tu nombre" id="usuario">
+                            <input type="email" name="correo" placeholder="Escribe tu email">
+            
+                            <div class="genero">
+                                <input type="radio" name="genero" id="hombre" value="hombre">
+                                <label for="hombre" class="label-radio hombre">Hombre</label>
+            
+                                <input type="radio" name="genero" id="mujer" value="mujer">
+                                <label for="mujer" class="label-radio mujer">Mujer</label>
 
-    <div class="formulario">
-      <h1>Contacto</h1>
-      <form action="login.php" method="post">
-        Nombre de usuario: <input type="text" name="username"><br><br>
-        Contraseña: <input type="password" name="password"><br><br>
-        <center><input type="submit" value="Iniciar sesión"></center>
-        <br>
-        <center><div class="recordar">¿Olvido su Contraseña?</div></center>
-        <center><input type="submit" value="Reiniciar Contraseña"></center>
-        <br>
-      </form>
-      </div>
+                                <input type="radio" name="genero" id="nobinario" value="nobinario">
+                                <label for="nobinario" class="label-radio nobinario">No-binario</label>
+                            </div>
+            
+                            <div class="terminos">
+                                <input type="checkbox" name="terminos" id="terminos">
+                                <label for="terminos">Acepto los términos y condiciones</label>
+                            </div>
+                            <ul class="error" id="error"></ul>
+                        </div>
+            
+                        <input type="submit" class="btn" value="Log in">
+                    </form>
+                </div>
+                <script src="Formulario.js"></script>
   </body>
 </html>
