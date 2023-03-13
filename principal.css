@@ -9,6 +9,36 @@ body{
   font-size: xx-large;
 }
 
+header nav{
+    /*editamos el nav nada mas dentro del nav*/
+    background: #0a4934;
+    overflow:hidden;
+}
+
+header nav ul{
+    /*Edtamos los atributos dentro del header/listas*/
+    list-style: none;
+}
+
+header nav ul li{
+    /*es la barra de navegación y estamos alineando las listas a la izquierda */
+    float: left;
+}
+
+header nav ul li a{
+    /*definimos un espacio rectangular su ancho y alto, su color, y el espacio entre el contenido y el texto*/
+    padding: 10px 40px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    /*definimos el color donde se encuentran las listas*/
+    background: #b63c27;
+}
+
+
 .slider img{
     display: block;
     width: 800px;
