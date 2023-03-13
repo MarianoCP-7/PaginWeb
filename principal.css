@@ -206,3 +206,33 @@ header nav ul li a:hover{
     background-color: #ccc;
   }
 </style>
+
+header, .contenedor, footer{
+  width:90%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+header nav{
+  background: #0a4934;
+  overflow:hidden;
+}
+
+header nav ul{
+  list-style: none;
+}
+
+header nav ul li{
+  float: left;
+}
+
+header nav ul li a{
+  padding: 10px 40px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover{
+  background: #b63c27;
+}
